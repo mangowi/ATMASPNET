@@ -15,7 +15,7 @@ namespace AutomatedTellerMachine.Models
         }
 
         // GET: CheckingAccount/Details/
-        public ActionResult Details(int id)
+        public ActionResult Details()
         {
             var checkingAccount = new CheckingAccount
             {
