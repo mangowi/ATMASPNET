@@ -2,29 +2,20 @@
     ViewBag.Title = "Home Page";
     //Layout = "MyLayout.cshtmls";
 }
-
-<div class="jumbotron">
-    <h1>Mangowi - Middle Valley Community Bank</h1>
-    <p class="lead">Is a upcoming bank web based ATM inssitution that comes up next to your mobile device or desktop computer.</p>
-    <p><a href="http://mangowi.com" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            You can register your account now by open a free account.
-        </p>
-         <p>@Html.ActionLink("Register", "Register", "Account", null, new  {@class="btn btn-info"})</p>
+    <div class="col-md-6 margin-top-20">
+        <a href="" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-circle-arrow-down"></span> Withdraw</a>
+        <a href="" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-flash"></span> Quick Penge DKK500</a>
+        <a href="" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-question-sign"></span> Balance</a>
     </div>
-    <div class="col-md-4">
-        <h2>Login</h2>
-        <p>If you are already a member you can login direct.</p>
-        <p>@Html.ActionLink("Log in", "Login", "Account", null, new  {@class="btn btn-success"})</p>
+    <div class="col-md-6 margin-top-20">
+        <a href="" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-transfer"></span> Transfer Funds</a>
+        <a href="" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-circle-arrow-up"></span> Deposit</a>
+        <a href="" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-print"></span> Print Statement</a>
+    </div>
 
-    </div>
- 
 </div>
+
 @section scripts{
       <script> var testing = true; </script>
     }
