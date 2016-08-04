@@ -33,7 +33,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Developed by Daniel Mangowi - ATM ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Developed by Daniel Mangowi - ATM ASP.NET Application @Html.Action("Serial", "Home", new { letterCase = "lower" })</p>
         </footer>
     </div>
 

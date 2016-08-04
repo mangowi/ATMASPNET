@@ -5,7 +5,7 @@
 
 <div class="jumbotron">
     <h1>Mangowi - Middle Valley Community Bank</h1>
-    <p class="lead">Mangowi - Middle Valley Community Bank is a upcoming bank web based ATM inssitution that comes up next to your mobile device or desktop computer.</p>
+    <p class="lead">Is a upcoming bank web based ATM inssitution that comes up next to your mobile device or desktop computer.</p>
     <p><a href="http://mangowi.com" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
 
@@ -15,12 +15,13 @@
         <p>
             You can register your account now by open a free account.
         </p>
-        <p><a class="btn btn-info" href="http://go.microsoft.com/fwlink/?LinkId=301865">Register &raquo;</a></p>
+         <p>@Html.ActionLink("Register", "Register", "Account", null, new  {@class="btn btn-info"})</p>
     </div>
     <div class="col-md-4">
         <h2>Login</h2>
         <p>If you are already a member you can login direct.</p>
-        <p><a class="btn btn-success" href="http://go.microsoft.com/fwlink/?LinkId=301866">Login &raquo;</a></p>
+        <p>@Html.ActionLink("Log in", "Login", "Account", null, new  {@class="btn btn-success"})</p>
+
     </div>
  
 </div>
