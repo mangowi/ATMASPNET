@@ -23,5 +23,10 @@ namespace AutomatedTellerMachine.Services
                 db.CheckingAccounts.Add(checkingAccount);
                 db.SaveChanges();
           }
+
+        internal void CreateCheckingAccount(string v1, string v2, string id, int v3)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

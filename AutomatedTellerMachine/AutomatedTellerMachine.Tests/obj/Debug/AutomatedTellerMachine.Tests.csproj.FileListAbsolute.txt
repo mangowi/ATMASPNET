@@ -90,7 +90,6 @@ C:\Users\Mimi\Google Drive\Drive\Code\BackEnd\ASPNETMVC5_EssT\AutomatedTellerMac
 C:\Users\Mimi\Google Drive\Drive\Code\BackEnd\ASPNETMVC5_EssT\AutomatedTellerMachine\AutomatedTellerMachine\AutomatedTellerMachine.Tests\bin\Debug\AutomatedTellerMachine.Tests.dll
 C:\Users\Mimi\Google Drive\Drive\Code\BackEnd\ASPNETMVC5_EssT\AutomatedTellerMachine\AutomatedTellerMachine\AutomatedTellerMachine.Tests\bin\Debug\AutomatedTellerMachine.Tests.pdb
 C:\Users\Mimi\Google Drive\Drive\Code\BackEnd\ASPNETMVC5_EssT\AutomatedTellerMachine\AutomatedTellerMachine\AutomatedTellerMachine.Tests\bin\Debug\AutomatedTellerMachine.dll
-C:\Users\Mimi\Google Drive\Drive\Code\BackEnd\ASPNETMVC5_EssT\AutomatedTellerMachine\AutomatedTellerMachine\AutomatedTellerMachine.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\Mimi\Google Drive\Drive\Code\BackEnd\ASPNETMVC5_EssT\AutomatedTellerMachine\AutomatedTellerMachine\AutomatedTellerMachine.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\Mimi\Google Drive\Drive\Code\BackEnd\ASPNETMVC5_EssT\AutomatedTellerMachine\AutomatedTellerMachine\AutomatedTellerMachine.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Mimi\Google Drive\Drive\Code\BackEnd\ASPNETMVC5_EssT\AutomatedTellerMachine\AutomatedTellerMachine\AutomatedTellerMachine.Tests\bin\Debug\System.Web.Helpers.dll
