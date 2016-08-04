@@ -64,6 +64,29 @@ namespace AutomatedTellerMachine.Models
 
     public class RegisterViewModel
     {
+
+        [Required]
+        //[StringLength(10, MinimumLength =6)]
+        [RegularExpression(@"\d{6,10}", ErrorMessage = "Accoutn # must be between 6 and 10 digits")]
+        [Display(Name = "Account #")]
+        public string AccountNumber { get; set; }
+
+        [Required]
+        [Display(Name = "First name")]
+        public string FirstName { get; set; }
+
+        [Required]
+        [Display(Name = "Last name")]
+        public string LastName { get; set; }
+
+        public string Name
+        {
+            get
+            {
+                return string.Format("{0} {1}", this.FirstName, this.LastName);
+            }
+        }
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
